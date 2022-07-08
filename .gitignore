@@ -1,4 +1,16 @@
-# elm-package generated files
+.DS_Store
+.elm-spa
 elm-stuff
-# elm-repl generated files
-repl-temp-*
+node_modules
+dist
+tmp.sh
+*bak**
+*scratch*
+*ignore*
+
+# don't track media in git
+*.png*
+*.jpeg*
+*.mov*
+*.mov*
+*.gif*
