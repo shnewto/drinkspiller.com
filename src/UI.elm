@@ -85,16 +85,18 @@ viewFeedImage item =
 layout : List (Html msg) -> List (Html msg)
 layout children =
     [ Html.div [ Attr.class "with-sidebar" ]
-        [ Html.header [ Attr.class "sidebar" ]
-            [ viewPageLink "Home" Route.Home_
-            , viewPageLink "LimboPass" Route.LimboPass
-            , viewPageLink "Blender" Route.Blender
-            , viewPageLink "Chess" Route.Chess
-            , viewPageLink "Experimenting" Route.Experimenting
-            , viewPageLink "TracingIsFun" Route.TracingIsFun
-            , viewPageLink "Wanderball" Route.Wanderball
-            , viewPageLink "Lamps" Route.Lamps
-            , viewPageLink "Avatars" Route.Avatars
+        [ Html.header [ Attr.class "sidebar sticky" ]
+            [ Html.div [ Attr.class "sidebar-content" ]
+                [ viewPageLink "Home" Route.Home_
+                , viewPageLink "LimboPass" Route.LimboPass
+                , viewPageLink "Blender" Route.Blender
+                , viewPageLink "Chess" Route.Chess
+                , viewPageLink "Experimenting" Route.Experimenting
+                , viewPageLink "TracingIsFun" Route.TracingIsFun
+                , viewPageLink "Wanderball" Route.Wanderball
+                , viewPageLink "Lamps" Route.Lamps
+                , viewPageLink "Avatars" Route.Avatars
+                ]
             ]
         , Html.main_ [ Attr.class "not-sidebar" ]
             ([ Html.div [ Attr.class "text-style" ]
