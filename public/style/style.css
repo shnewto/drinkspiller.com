@@ -52,19 +52,8 @@ hr {
     flex-direction: column;
 }
 
-.page-text-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin: 1%;
-}
-
 .header {
     color: black;
-}
-
-.page-text {
-    font-size: 1.5em;
 }
 
 .grid {
