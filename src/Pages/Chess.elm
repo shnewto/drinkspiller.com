@@ -21,6 +21,5 @@ view =
     , body =
         UI.layout
             [ UI.viewFeedCenteredImage Media.Chess.lowPolyChessBoard
-            , UI.viewFeedCenteredImage Media.Chess.chess3dPrinting
             ]
     }

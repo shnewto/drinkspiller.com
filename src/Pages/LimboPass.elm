@@ -34,9 +34,6 @@ view =
             , UI.viewFeedCenteredImage Media.LimboPass.terrainScene
             , UI.viewFeedCenteredImage Media.LimboPass.terrain
             , UI.viewFeedCenteredImage Media.LimboPass.triMeshExcitement
-            , UI.viewFeedCenteredImage Media.LimboPass.underMountain
-            , UI.viewFeedCenteredImage Media.LimboPass.startingOut001
             , UI.viewFeedCenteredImage Media.LimboPass.startingOut002
-            , UI.viewFeedCenteredImage Media.LimboPass.startingOut003
             ]
     }
