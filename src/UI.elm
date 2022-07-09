@@ -41,6 +41,16 @@ viewPageLink label route =
     Html.a [ Attr.href (Route.toHref route) ] [ Html.text label ]
 
 
+viewSidebarParentPageLink : String -> Route -> Html msg
+viewSidebarParentPageLink label route =
+    Html.a [ Attr.class "sidebar-parent-a", Attr.href (Route.toHref route) ] [ Html.text label ]
+
+
+viewSidebarChildPageLink : String -> Route -> Html msg
+viewSidebarChildPageLink label route =
+    Html.a [ Attr.class "sidebar-child-a", Attr.href (Route.toHref route) ] [ Html.text label ]
+
+
 viewPageThumbLink : Route -> Media.Item -> Html msg
 viewPageThumbLink route item =
     Html.a [ Attr.href (Route.toHref route) ]
@@ -129,17 +139,20 @@ viewFeedImageSet items =
 layout : List (Html msg) -> List (Html msg)
 layout children =
     [ Html.div [ Attr.class "with-sidebar" ]
-        [ Html.header [ Attr.class "sidebar sticky" ]
-            [ Html.div [ Attr.class "sidebar-content" ]
-                [ viewPageLink "Home" Route.Home_
-                , viewPageLink "LimboPass" Route.LimboPass
-                , viewPageLink "Blender" Route.Blender
-                , viewPageLink "Chess" Route.Chess
-                , viewPageLink "Experimenting" Route.Experimenting
-                , viewPageLink "TracingIsFun" Route.TracingIsFun
-                , viewPageLink "Wanderball" Route.Wanderball
-                , viewPageLink "Lamps" Route.Lamps
-                , viewPageLink "Avatars" Route.Avatars
+        [ Html.header [ Attr.class "sidebar" ]
+            [ Html.div []
+                [ viewSidebarParentPageLink "Home" Route.Home_
+                , viewSidebarParentPageLink "LimboPass" Route.LimboPass
+                , viewSidebarParentPageLink "Blender" Route.Blender
+                , viewSidebarChildPageLink "TheBust" Route.Blender__TheBust
+                , viewSidebarChildPageLink "Grass" Route.Blender__Grass
+                , viewSidebarChildPageLink "Lamp" Route.Blender__Lamp
+                , viewSidebarParentPageLink "Chess" Route.Chess
+                , viewSidebarParentPageLink "Experimenting" Route.Experimenting
+                , viewSidebarParentPageLink "TracingIsFun" Route.TracingIsFun
+                , viewSidebarParentPageLink "Wanderball" Route.Wanderball
+                , viewSidebarParentPageLink "Lamps" Route.Lamps
+                , viewSidebarParentPageLink "Avatars" Route.Avatars
                 ]
             ]
         , Html.main_ [ Attr.class "not-sidebar" ]

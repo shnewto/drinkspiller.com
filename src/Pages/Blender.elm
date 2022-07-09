@@ -1,6 +1,7 @@
 module Pages.Blender exposing (page)
 
-import Media.Blender
+import Gen.Route as Route
+import Media.Thumbs as Thumbs
 import Page exposing (Page)
 import Request exposing (Request)
 import Shared
@@ -20,19 +21,10 @@ view =
     { title = "Blender Journey"
     , body =
         UI.layout
-            [ UI.pageFeedContainer
-                [ UI.viewFeedCenteredImageWithDescription Media.Blender.blenderBust005
-                , UI.viewFeedCenteredImageWithDescription Media.Blender.blenderBust003
-                , UI.viewFeedCenteredImageWithDescription Media.Blender.blenderBust004
-                , UI.viewFeedCenteredImageWithDescription Media.Blender.blenderBust006
-                , UI.viewFeedCenteredImageWithDescription Media.Blender.blenderBust007
-                , UI.viewFeedCenteredImageWithDescription Media.Blender.blenderBust008
-                , UI.viewFeedCenteredImageWithDescription Media.Blender.grass001
-                , UI.viewFeedCenteredImageWithDescription Media.Blender.grass002
-                , UI.viewFeedCenteredImageWithDescription Media.Blender.grass003
-                , UI.viewFeedCenteredImageWithDescription Media.Blender.lamp002
-                , UI.viewFeedCenteredImageWithDescription Media.Blender.lamp003
-                , UI.viewFeedCenteredImageWithDescription Media.Blender.lamp004
+            [ UI.pageCardContainer
+                [ UI.pageLinkCardView Route.Blender__TheBust Thumbs.theBust "gray-bg"
+                , UI.pageLinkCardView Route.Blender__Grass Thumbs.grass "gray-bg"
+                , UI.pageLinkCardView Route.Blender__Lamp Thumbs.candelabra "gray-bg"
                 ]
             ]
     }

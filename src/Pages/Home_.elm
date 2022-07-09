@@ -1,8 +1,6 @@
 module Pages.Home_ exposing (view)
 
 import Gen.Route as Route
-import Html
-import Html.Attributes as Attr
 import Media.Thumbs as Thumbs
 import Page exposing (Page)
 import Request exposing (Request)

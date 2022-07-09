@@ -27,8 +27,31 @@ blender =
     , title = "blender journey"
     , description = ""
     }
+    
+theBust : Item
+theBust =
+    { path = path  Media.Blender.blenderBust005
+    , altText = altText Media.Blender.blenderBust005
+    , title = "the bust"
+    , description = ""
+    }    
 
+grass : Item
+grass =
+    { path = path  Media.Blender.grass001
+    , altText = altText Media.Blender.grass001
+    , title = "procedural grass"
+    , description = ""
+    }    
 
+candelabra : Item
+candelabra =
+    { path = path  Media.Blender.lamp002
+    , altText = altText Media.Blender.lamp002
+    , title = "lamp"
+    , description = ""
+    }    
+        
 chess : Item
 chess =
     { path = path Media.Chess.lowPolyChessBoard

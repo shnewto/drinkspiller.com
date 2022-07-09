@@ -40,8 +40,23 @@ hr {
     font-size: 2em;
 }
 
-.sidebar-content {
+.sidebar a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    text-decoration: none;
+    color: whitesmoke;
+    gap: 1rem;
+}
 
+.sidebar-parent-a {
+    font-size: 2em;
+    margin: 0.5em;
+}
+
+.sidebar-child-a {
+    font-size: 0.5em;
+    padding-left: 1em;
 }
 
 .sidebar a:hover {

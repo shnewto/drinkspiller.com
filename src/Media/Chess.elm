@@ -13,7 +13,7 @@ lowPolyChessBoard =
 chess3dPrinting : Item
 chess3dPrinting =
     { path = "/img/chess/3d-printing.png"
-    , altText = ""
+    , altText = "photo of low-poly looking pawns, pale and glowing in the green light of a 3d printer as they come to life"
     , title = ""
     , description = ""
     }
