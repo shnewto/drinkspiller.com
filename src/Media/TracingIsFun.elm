@@ -15,7 +15,7 @@ blueFlax =
 crystalMountain : Item
 crystalMountain =
     { path = "/img/tracing-is-fun/crystal-mountain.png"
-    , altText = ""
+    , altText = "black and white traced line drawing of a figure walking up a rocky hill. ther is a conifer at top of the hill. the figure is wearing a hooded jacked and a winter hat"
     , title = ""
     , description = ""
     }
@@ -33,7 +33,7 @@ portal =
 sidewalk : Item
 sidewalk =
     { path = "/img/tracing-is-fun/sidewalk.png"
-    , altText = ""
+    , altText = "black and white traced line drawing. at least the impression of a sidewalk in perspective. there are cracks, and lines between blocks of the concret, and shakey edges where grass and weeds are creeping in"
     , title = ""
     , description = ""
     }
