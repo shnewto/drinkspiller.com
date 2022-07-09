@@ -4,7 +4,6 @@
 
 ## todos before release
 
-- all alt text
 - context blocks per page and per image/gif
 
 ## developing
