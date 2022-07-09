@@ -17,16 +17,16 @@ page _ _ =
 
 view : View msg
 view =
-    { title = "Blender Journey"
+    { title = "The Bust"
     , body =
         UI.layout
             [ UI.pageFeedContainer
-                [ UI.viewFeedCenteredImageWithDescription Media.Blender.blenderBust005
-                , UI.viewFeedCenteredImageWithDescription Media.Blender.blenderBust003
-                , UI.viewFeedCenteredImageWithDescription Media.Blender.blenderBust004
-                , UI.viewFeedCenteredImageWithDescription Media.Blender.blenderBust006
-                , UI.viewFeedCenteredImageWithDescription Media.Blender.blenderBust007
-                , UI.viewFeedCenteredImageWithDescription Media.Blender.blenderBust008
+                [ UI.viewFeedCenteredImage Media.Blender.blenderBust005
+                , UI.viewFeedCenteredImage Media.Blender.blenderBust003
+                , UI.viewFeedCenteredImage Media.Blender.blenderBust004
+                , UI.viewFeedCenteredImage Media.Blender.blenderBust006
+                , UI.viewFeedCenteredImage Media.Blender.blenderBust007
+                , UI.viewFeedCenteredImage Media.Blender.blenderBust008
                 ]
             ]
     }

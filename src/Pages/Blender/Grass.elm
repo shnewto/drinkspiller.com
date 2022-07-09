@@ -17,13 +17,13 @@ page _ _ =
 
 view : View msg
 view =
-    { title = "Blender Journey"
+    { title = "Grass"
     , body =
         UI.layout
             [ UI.pageFeedContainer
-                [ UI.viewFeedCenteredImageWithDescription Media.Blender.grass001
-                , UI.viewFeedCenteredImageWithDescription Media.Blender.grass002
-                , UI.viewFeedCenteredImageWithDescription Media.Blender.grass003
+                [ UI.viewFeedCenteredImage Media.Blender.grass001
+                , UI.viewFeedCenteredImage Media.Blender.grass002
+                , UI.viewFeedCenteredImage Media.Blender.grass003
                 ]
             ]
     }
