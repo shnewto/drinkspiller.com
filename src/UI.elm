@@ -3,6 +3,7 @@ module UI exposing (..)
 import Gen.Route as Route exposing (Route)
 import Html exposing (Html)
 import Html.Attributes as Attr
+import List exposing (map)
 import Media.Media as Media
 
 
@@ -70,6 +71,34 @@ viewFeedCenteredImage item =
         ]
 
 
+viewFeedCenteredImageSet : List Media.Item -> Html msg
+viewFeedCenteredImageSet items =
+    Html.div [ Attr.class "feed-cell" ] <|
+        map
+            (\item ->
+                Html.img
+                    [ Attr.class "feed-centered-image"
+                    , Attr.src item.path
+                    , Attr.alt item.altText
+                    ]
+                    []
+            )
+            items
+
+
+viewFeedCenteredImageWithDescription : Media.Item -> Html msg
+viewFeedCenteredImageWithDescription item =
+    Html.div [ Attr.class "feed-cell" ]
+        [ Html.h1 [ Attr.class "feed-text" ] [ Html.text item.description ]
+        , Html.img
+            [ Attr.class "feed-centered-image"
+            , Attr.src item.path
+            , Attr.alt item.altText
+            ]
+            []
+        ]
+
+
 viewFeedImage : Media.Item -> Html msg
 viewFeedImage item =
     Html.div []
@@ -80,6 +109,21 @@ viewFeedImage item =
             ]
             []
         ]
+
+
+viewFeedImageSet : List Media.Item -> Html msg
+viewFeedImageSet items =
+    Html.div [] <|
+        map
+            (\item ->
+                Html.img
+                    [ Attr.class "feed-img"
+                    , Attr.src item.path
+                    , Attr.alt item.altText
+                    ]
+                    []
+            )
+            items
 
 
 layout : List (Html msg) -> List (Html msg)

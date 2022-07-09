@@ -16,6 +16,7 @@ limboPass =
     { path = path Media.LimboPass.ghostlyForm
     , altText = altText Media.LimboPass.ghostlyForm
     , title = "limbo pass"
+    , description = ""
     }
 
 
@@ -24,6 +25,7 @@ blender =
     { path = path  Media.Blender.blenderBust005
     , altText = altText Media.Blender.blenderBust005
     , title = "blender journey"
+    , description = ""
     }
 
 
@@ -32,6 +34,7 @@ chess =
     { path = path Media.Chess.lowPolyChessBoard
     , altText = altText Media.Chess.lowPolyChessBoard
     , title = "chess"
+    , description = ""
     }
 
 
@@ -40,6 +43,7 @@ experimenting =
     { path = path Media.Experimenting.smudgyBoot
     , altText = altText Media.Experimenting.smudgyBoot
     , title = "digital brush experiments"
+    , description = ""
     }
 
 
@@ -48,6 +52,7 @@ tracing =
     { path = path Media.TracingIsFun.crystalMountain
     , altText = altText Media.TracingIsFun.crystalMountain
     , title = "tracing's fun"
+    , description = ""
     }
 
 
@@ -56,6 +61,7 @@ wanderball =
     { path = path Media.Wanderball.start
     , altText = altText Media.Wanderball.start
     , title = "wanderball"
+    , description = ""
     }
 
 
@@ -64,6 +70,7 @@ lamp =
     { path = path Media.Lamps.lamp001
     , altText = altText Media.Lamps.lamp001
     , title = "lamps"
+    , description = ""
     }
 
 
@@ -72,4 +79,5 @@ avatars =
     { path = path Media.Avatars.shnewto
     , altText = altText Media.Avatars.shnewto
     , title = "avatars"
+    , description = ""
     }

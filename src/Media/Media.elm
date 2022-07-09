@@ -5,6 +5,7 @@ type alias Item =
     { path : String
     , altText : String
     , title : String
+    , description: String
     }
 
 
@@ -21,3 +22,7 @@ altText item =
 title : Item -> String
 title item =
     item.title
+
+details : Item -> String
+details item =
+    item.description

@@ -17,27 +17,22 @@ page _ _ =
 
 view : View msg
 view =
-    { title = "Avatars"
+    { title = "Blender Journey"
     , body =
         UI.layout
             [ UI.pageFeedContainer
-                [ UI.viewFeedCenteredImage Media.Blender.blenderBust005
-                , UI.viewFeedCenteredImage Media.Blender.blenderBust003
-                , UI.viewFeedCenteredImage Media.Blender.blenderBust004
-                , UI.viewFeedCenteredImage Media.Blender.blenderBust006
-                , UI.viewFeedCenteredImage Media.Blender.blenderBust007
-                , UI.viewFeedCenteredImage Media.Blender.blenderBust008
-                , UI.viewFeedCenteredImage Media.Blender.blenderBust001
-                , UI.viewFeedCenteredImage Media.Blender.blenderBust002
-                , UI.viewFeedCenteredImage Media.Blender.blenderBust009
-                , UI.viewFeedCenteredImage Media.Blender.blenderBust010
-                , UI.viewFeedCenteredImage Media.Blender.grass001
-                , UI.viewFeedCenteredImage Media.Blender.grass002
-                , UI.viewFeedCenteredImage Media.Blender.grass003
-                , UI.viewFeedCenteredImage Media.Blender.characterClass
-                , UI.viewFeedCenteredImage Media.Blender.lamp002
-                , UI.viewFeedCenteredImage Media.Blender.lamp003
-                , UI.viewFeedCenteredImage Media.Blender.lamp004
+                [ UI.viewFeedCenteredImageWithDescription Media.Blender.blenderBust005
+                , UI.viewFeedCenteredImageWithDescription Media.Blender.blenderBust003
+                , UI.viewFeedCenteredImageWithDescription Media.Blender.blenderBust004
+                , UI.viewFeedCenteredImageWithDescription Media.Blender.blenderBust006
+                , UI.viewFeedCenteredImageWithDescription Media.Blender.blenderBust007
+                , UI.viewFeedCenteredImageWithDescription Media.Blender.blenderBust008
+                , UI.viewFeedCenteredImageWithDescription Media.Blender.grass001
+                , UI.viewFeedCenteredImageWithDescription Media.Blender.grass002
+                , UI.viewFeedCenteredImageWithDescription Media.Blender.grass003
+                , UI.viewFeedCenteredImageWithDescription Media.Blender.lamp002
+                , UI.viewFeedCenteredImageWithDescription Media.Blender.lamp003
+                , UI.viewFeedCenteredImageWithDescription Media.Blender.lamp004
                 ]
             ]
     }
