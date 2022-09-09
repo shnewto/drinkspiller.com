@@ -16,6 +16,20 @@ hr {
     align-items: flex-start;
 }
 
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.page-text {
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 2em;
+}
+
 /* .sticky {
     position: -webkit-sticky; 
     position: sticky;
@@ -122,22 +136,21 @@ hr {
     flex-wrap: nowrap;
     align-items: center;
     width: 75%;
-    margin: 10%;
+    margin: auto;
+    margin-bottom: 4%;
     border: 5px solid black;
-    flex-direction: column;
 }
 
 .feed-cell {
     align-items: center;
     margin: 1%;
+    width: 85%;
     border: 5px solid black;
-    flex-direction: column;
 }
 
 .feed-text {
     display: flex;
-    flex-direction: column;
-    margin-left: 10%;
+    margin-left: 1%;
 }
 
 .card {

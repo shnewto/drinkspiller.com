@@ -5,6 +5,6 @@ lowPolyChessBoard : Item
 lowPolyChessBoard =
     { path = "/img/chess/set.png"
     , altText = "pastel chess board and low poly chess pieces mid game. white plays the perseus gambit, black has a slight advantage"
-    , title = "board"
+    , title = "perseus gambit"
     , description = ""
     }

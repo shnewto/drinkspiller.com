@@ -20,20 +20,20 @@ view =
     { title = "LimboPass"
     , body =
         UI.layout
-            [ UI.viewFeedCenteredImage Media.LimboPass.ghostlyForm
-            , UI.viewFeedCenteredImage Media.LimboPass.bevyScene
-            , UI.viewFeedCenteredImage Media.LimboPass.collision
-            , UI.viewFeedCenteredImage Media.LimboPass.firstBlenderToBevy
-            , UI.viewFeedCenteredImage Media.LimboPass.ghostFormScene
-            , UI.viewFeedCenteredImage Media.LimboPass.gotItFigured
-            , UI.viewFeedCenteredImage Media.LimboPass.gravityLol
-            , UI.viewFeedCenteredImage Media.LimboPass.oppositeUvs
-            , UI.viewFeedCenteredImage Media.LimboPass.path
-            , UI.viewFeedCenteredImage Media.LimboPass.sceneSet
-            , UI.viewFeedCenteredImage Media.LimboPass.smallTerrain
-            , UI.viewFeedCenteredImage Media.LimboPass.terrainScene
-            , UI.viewFeedCenteredImage Media.LimboPass.terrain
+            [ UI.viewFeedCenteredImage Media.LimboPass.startingOut002
             , UI.viewFeedCenteredImage Media.LimboPass.triMeshExcitement
-            , UI.viewFeedCenteredImage Media.LimboPass.startingOut002
+            , UI.viewFeedCenteredImage Media.LimboPass.smallTerrain
+            , UI.viewFeedCenteredImage Media.LimboPass.oppositeUvs
+            , UI.viewFeedCenteredImage Media.LimboPass.gotItFigured
+            , UI.viewFeedCenteredImage Media.LimboPass.path
+            , UI.viewFeedCenteredImage Media.LimboPass.firstBlenderToBevy
+            , UI.viewFeedCenteredImage Media.LimboPass.terrainScene
+            , UI.viewFeedCenteredImage Media.LimboPass.sceneSet
+            , UI.viewFeedCenteredImage Media.LimboPass.gravityLol
+            , UI.viewFeedCenteredImage Media.LimboPass.collision
+            , UI.viewFeedCenteredImage Media.LimboPass.terrain
+            , UI.viewFeedCenteredImage Media.LimboPass.ghostFormScene
+            , UI.viewFeedCenteredImage Media.LimboPass.ghostlyForm
+            , UI.viewFeedCenteredImage Media.LimboPass.bevyScene
             ]
     }

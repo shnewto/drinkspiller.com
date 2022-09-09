@@ -78,9 +78,9 @@ oppositeUvs =
 path : Item
 path =
     { path = "/img/limbo-pass/path.png"
-    , altText = ""
-    , title = "grey-black low-poly, wire-frame, procedurally generated, mountain terrain. split in the center and illuminated on the left by purple light that refelects off the surface. betwee the halfs is a wire-frame, procedurally generated, thin, black-grey path."
-    , description = "early pass at a mountain pass"
+    , altText = "grey-black low-poly, wire-frame, procedurally generated, mountain terrain. split in the center and illuminated on the left by purple light that refelects off the surface. betwee the halfs is a wire-frame, procedurally generated, thin, black-grey path"
+    , title = "early pass at a mountain pass"
+    , description = ""
     }
 
 

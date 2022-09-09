@@ -71,7 +71,7 @@ viewCellCenteredImage item =
 viewFeedCenteredImage : Media.Item -> Html msg
 viewFeedCenteredImage item =
     Html.div [ Attr.class "feed-cell" ]
-        [ Html.h1 [ Attr.class "feed-text" ] [ Html.text item.title ]
+        [ Html.h2 [ Attr.class "feed-text" ] [ Html.text item.title ]
         , Html.img
             [ Attr.class "feed-centered-image"
             , Attr.src item.path
@@ -99,7 +99,7 @@ viewFeedCenteredImageSet items =
 viewFeedCenteredImageWithDescription : Media.Item -> Html msg
 viewFeedCenteredImageWithDescription item =
     Html.div [ Attr.class "feed-cell" ]
-        [ Html.h1 [ Attr.class "feed-text" ] [ Html.text item.description ]
+        [ Html.h2 [ Attr.class "feed-text" ] [ Html.text item.description ]
         , Html.img
             [ Attr.class "feed-centered-image"
             , Attr.src item.path
@@ -153,6 +153,7 @@ layout children =
                 , viewSidebarParentPageLink "Wanderball" Route.Wanderball
                 , viewSidebarParentPageLink "Lamps" Route.Lamps
                 , viewSidebarParentPageLink "Avatars" Route.Avatars
+                , viewSidebarParentPageLink "About" Route.About
                 ]
             ]
         , Html.main_ [ Attr.class "not-sidebar" ]
