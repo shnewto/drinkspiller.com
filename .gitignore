@@ -11,6 +11,7 @@ tmp.sh
 # don't track media in git
 *.png*
 *.jpeg*
+*.jpg*
 *.mov*
 *.mov*
 *.gif*
