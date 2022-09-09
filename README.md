@@ -1,10 +1,6 @@
 # drinkspiller
 
-> wip. tracking some of the stuff i've been up to
-
-## todos before release
-
-- context blocks per page and per image/gif
+> tracking some of the stuff i've been up to
 
 ## developing
 
