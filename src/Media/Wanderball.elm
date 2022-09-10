@@ -1,4 +1,5 @@
 module Media.Wanderball exposing (..)
+
 import Media.Media exposing (Item)
 
 
@@ -8,6 +9,7 @@ start =
     , altText = "a pink ball standing before a blue and grey speckled path"
     , title = "starting out"
     , description = ""
+    , link = ""
     }
 
 
@@ -17,6 +19,7 @@ corner =
     , altText = "a pink ball in the middle of a blue and grey speckled path as it turns sharply to the right"
     , title = "turing the corner"
     , description = ""
+    , link = ""
     }
 
 
@@ -26,6 +29,7 @@ emptyPath =
     , altText = "segment of a blue and grey speckled path, enough of it is visible to see the repeating pattern in the pixels"
     , title = "quiet path"
     , description = ""
+    , link = ""
     }
 
 
@@ -35,4 +39,5 @@ map =
     , altText = "a zoomed out view of a system of sharp cornered, overlaping, blue and gray path. there is a pink dot to the right of center, in the empty space off the path, a ball that hasn't found its way"
     , title = "map"
     , description = ""
+    , link = ""
     }

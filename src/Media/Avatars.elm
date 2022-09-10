@@ -9,6 +9,7 @@ shnewto =
     , altText = "glitched whale emoji"
     , title = "shnewto"
     , description = ""
+    , link = ""
     }
 
 
@@ -18,6 +19,7 @@ drinkspiller =
     , altText = "monstrous 3d model of a human head with unruly eyebrows and an unruly head of hair"
     , title = "drinkspiller"
     , description = ""
+    , link = ""
     }
 
 
@@ -27,4 +29,5 @@ frostGiant =
     , altText = "tall, thin, pale, psychedelic frost giant with an axe slung over their shoulder"
     , title = "chumba"
     , description = ""
+    , link = ""
     }

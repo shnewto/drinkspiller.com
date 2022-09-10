@@ -6,7 +6,8 @@ import Request exposing (Request)
 import Shared
 import UI
 import View exposing (View)
-
+import Html exposing (p, a, text)
+import Html.Attributes exposing (href, class)
 
 page : Shared.Model -> Request -> Page
 page _ _ =
@@ -35,5 +36,7 @@ view =
             , UI.viewFeedCenteredImage Media.LimboPass.ghostFormScene
             , UI.viewFeedCenteredImage Media.LimboPass.ghostlyForm
             , UI.viewFeedCenteredImage Media.LimboPass.bevyScene
+            , UI.viewFeedCenteredImage Media.LimboPass.bevyScene
+            , UI.viewFeedCenteredText Media.LimboPass.repo
             ]
     }

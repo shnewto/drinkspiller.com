@@ -6,6 +6,7 @@ type alias Item =
     , altText : String
     , title : String
     , description: String
+    , link: String
     }
 
 

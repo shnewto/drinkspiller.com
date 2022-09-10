@@ -1,8 +1,8 @@
 module UI exposing (..)
 
 import Gen.Route as Route exposing (Route)
-import Html exposing (Html)
-import Html.Attributes as Attr
+import Html exposing (Html, a)
+import Html.Attributes as Attr exposing (href, target)
 import List exposing (map)
 import Media.Media as Media
 
@@ -78,6 +78,19 @@ viewFeedCenteredImage item =
             , Attr.alt item.altText
             ]
             []
+        ]
+
+
+viewFeedCenteredText : Media.Item -> Html msg
+viewFeedCenteredText item =
+    Html.div [ Attr.class "feed-cell" ]
+        [ Html.h2 [ Attr.class "feed-text" ]
+            [ a
+                [ href item.link
+                , target "_blank"
+                ]
+                [ Html.text item.title ]
+            ]
         ]
 
 

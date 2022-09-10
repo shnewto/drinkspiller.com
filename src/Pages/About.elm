@@ -36,9 +36,9 @@ view =
                                 [ text "sheas.blog" ]
                             ]
                         , li []
-                            [ text "this site's written in elm and the source is avaialble on "
+                            [ text "this site's written in mostly elm and the source, along with other game-ish and not so game-ish projects, live on my "
                             , a
-                                [ href "https://github.com/shnewto/drinkspiller.com"
+                                [ href "https://github.com/shnewto"
                                 , target "_blank"
                                 ]
                                 [ text "github" ]
