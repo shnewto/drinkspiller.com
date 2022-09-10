@@ -36,7 +36,6 @@ view =
             , UI.viewFeedCenteredImage Media.LimboPass.ghostFormScene
             , UI.viewFeedCenteredImage Media.LimboPass.ghostlyForm
             , UI.viewFeedCenteredImage Media.LimboPass.bevyScene
-            , UI.viewFeedCenteredImage Media.LimboPass.bevyScene
             , UI.viewFeedCenteredText Media.LimboPass.repo
             ]
     }
