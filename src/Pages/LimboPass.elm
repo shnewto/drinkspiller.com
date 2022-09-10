@@ -29,9 +29,9 @@ view =
             , UI.viewFeedCenteredImage Media.LimboPass.firstBlenderToBevy
             , UI.viewFeedCenteredImage Media.LimboPass.terrainScene
             , UI.viewFeedCenteredImage Media.LimboPass.sceneSet
+            , UI.viewFeedCenteredImage Media.LimboPass.terrain
             , UI.viewFeedCenteredImage Media.LimboPass.gravityLol
             , UI.viewFeedCenteredImage Media.LimboPass.collision
-            , UI.viewFeedCenteredImage Media.LimboPass.terrain
             , UI.viewFeedCenteredImage Media.LimboPass.ghostFormScene
             , UI.viewFeedCenteredImage Media.LimboPass.ghostlyForm
             , UI.viewFeedCenteredImage Media.LimboPass.bevyScene
