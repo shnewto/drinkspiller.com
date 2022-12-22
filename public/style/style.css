@@ -153,6 +153,10 @@ h2 {
     margin-left: 1%;
 }
 
+#no-ul {
+    text-decoration: none;    
+}
+
 .card {
     flex: 0 0 35%;
     align-items: center;

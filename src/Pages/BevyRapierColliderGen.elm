@@ -1,6 +1,6 @@
 module Pages.BevyRapierColliderGen exposing (view)
 
-import Html exposing (a, div, h2, li, p, text, ul)
+import Html exposing (a, div, h2, li, p, span, text, ul)
 import Html.Attributes exposing (class, href, target)
 import Media.BevyRapierColliderGen
 import Page exposing (Page)
@@ -22,8 +22,8 @@ view =
     { title = "bevy_rapier_collider_gen"
     , body =
         UI.layout
-            [ 
-             UI.viewFeedCenteredImage Media.BevyRapierColliderGen.brcg014
+            [ UI.viewFeedCenteredText Media.BevyRapierColliderGen.misadventures
+            , UI.viewFeedCenteredImage Media.BevyRapierColliderGen.brcg000
             , UI.viewFeedCenteredImage Media.BevyRapierColliderGen.brcg001
             , UI.viewFeedCenteredImage Media.BevyRapierColliderGen.brcg002
             , UI.viewFeedCenteredImage Media.BevyRapierColliderGen.brcg003
@@ -37,10 +37,13 @@ view =
             , UI.viewFeedCenteredImage Media.BevyRapierColliderGen.brcg011
             , UI.viewFeedCenteredImage Media.BevyRapierColliderGen.brcg012
             , UI.viewFeedCenteredImage Media.BevyRapierColliderGen.brcg013
+            , UI.viewFeedCenteredText Media.BevyRapierColliderGen.blooperReel
+            , UI.viewFeedCenteredImage Media.BevyRapierColliderGen.brcg000gif
             , UI.viewFeedCenteredImage Media.BevyRapierColliderGen.brcg001gif
             , UI.viewFeedCenteredImage Media.BevyRapierColliderGen.brcg002gif
-            , UI.viewFeedCenteredImage Media.BevyRapierColliderGen.brcg003gif
+            , UI.viewFeedCenteredText Media.BevyRapierColliderGen.success
             , UI.viewFeedCenteredImage Media.BevyRapierColliderGen.brcg004gif
+            , UI.viewFeedCenteredImage Media.BevyRapierColliderGen.brcg005gif
             , UI.viewFeedCenteredText Media.BevyRapierColliderGen.repo
             ]
     }

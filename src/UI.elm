@@ -1,7 +1,7 @@
 module UI exposing (..)
 
 import Gen.Route as Route exposing (Route)
-import Html exposing (Html, a)
+import Html exposing (Html, a, li)
 import Html.Attributes as Attr exposing (href, target)
 import List exposing (map)
 import Media.Media as Media
@@ -83,14 +83,25 @@ viewFeedCenteredImage item =
 
 viewFeedCenteredText : Media.Item -> Html msg
 viewFeedCenteredText item =
-    Html.div [ Attr.class "feed-cell" ]
-        [ Html.h2 [ Attr.class "feed-text" ]
+    let
+        noLink =
+            [ Html.text item.title ]
+
+        linkElement =
             [ a
-                [ href item.link
+                [ Attr.id "no-ul", href item.link
                 , target "_blank"
                 ]
                 [ Html.text item.title ]
             ]
+    in
+    Html.div [ Attr.class "feed-cell" ]
+        [ Html.h2 [ Attr.class "feed-text" ] <|
+            if item.link /= "" then
+                linkElement
+
+            else
+                noLink
         ]
 
 
@@ -155,6 +166,7 @@ layout children =
         [ Html.header [ Attr.class "sidebar" ]
             [ Html.div []
                 [ viewSidebarParentPageLink "Home" Route.Home_
+                , viewSidebarParentPageLink "ColliderGen" Route.BevyRapierColliderGen
                 , viewSidebarParentPageLink "LimboPass" Route.LimboPass
                 , viewSidebarParentPageLink "Blender" Route.Blender
                 , viewSidebarChildPageLink "TheBust" Route.Blender__TheBust

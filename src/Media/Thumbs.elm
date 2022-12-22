@@ -14,8 +14,8 @@ import Media.BevyRapierColliderGen
 
 bevyRapierColliderGen : Item
 bevyRapierColliderGen =
-    { path = path Media.BevyRapierColliderGen.brcg014
-    , altText = altText Media.BevyRapierColliderGen.brcg014
+    { path = path Media.BevyRapierColliderGen.brcg000
+    , altText = altText Media.BevyRapierColliderGen.brcg000
     , title = "collider gen"
     , description = ""
     , link = ""
