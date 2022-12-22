@@ -36,7 +36,6 @@ view =
             , UI.viewFeedCenteredImage Media.BevyRapierColliderGen.brcg010
             , UI.viewFeedCenteredImage Media.BevyRapierColliderGen.brcg011
             , UI.viewFeedCenteredImage Media.BevyRapierColliderGen.brcg012
-            , UI.viewFeedCenteredImage Media.BevyRapierColliderGen.brcg013
             , UI.viewFeedCenteredText Media.BevyRapierColliderGen.blooperReel
             , UI.viewFeedCenteredImage Media.BevyRapierColliderGen.brcg000gif
             , UI.viewFeedCenteredImage Media.BevyRapierColliderGen.brcg001gif
