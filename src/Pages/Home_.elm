@@ -22,7 +22,8 @@ view =
     , body =
         UI.layout
             [ UI.pageCardContainer
-                [ UI.pageLinkCardView Route.LimboPass Thumbs.limboPass "black-bg"
+                [ UI.pageLinkCardView Route.BevyRapierColliderGen Thumbs.bevyRapierColliderGen "black-bg"
+                , UI.pageLinkCardView Route.LimboPass Thumbs.limboPass "black-bg"
                 , UI.pageLinkCardView Route.Blender Thumbs.blender "gray-bg"
                 , UI.pageLinkCardView Route.Chess Thumbs.chess "gray-bg"
                 , UI.pageLinkCardView Route.Experimenting Thumbs.experimenting "white-bg"

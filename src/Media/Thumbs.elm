@@ -9,8 +9,18 @@ import Media.LimboPass
 import Media.Media exposing (Item, altText, path)
 import Media.TracingIsFun
 import Media.Wanderball
+import Media.BevyRapierColliderGen
 
 
+bevyRapierColliderGen : Item
+bevyRapierColliderGen =
+    { path = path Media.BevyRapierColliderGen.brcg014
+    , altText = altText Media.BevyRapierColliderGen.brcg014
+    , title = "collider gen"
+    , description = ""
+    , link = ""
+    }
+    
 limboPass : Item
 limboPass =
     { path = path Media.LimboPass.ghostlyForm
