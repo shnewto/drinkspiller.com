@@ -17,7 +17,7 @@ misadventures : Item
 misadventures =
     { path = ""
     , altText = ""
-    , title = "misadventures ↓"
+    , title = "misadventures in collider generation ↓"
     , description = ""
     , link = ""
     }
